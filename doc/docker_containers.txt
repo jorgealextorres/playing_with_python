@@ -1,0 +1,13 @@
+not working:
+
+-- oracle should be installed: docker run --rm -d -p 1521:1521 --name oracle-11g -v oracle_database:/u01/app/oracle/oradata/XE oracleinanutshell/oracle-xe-11g
+-- mysql no accessible from Dbeaver: docker run --rm -d -p 3306:3306 --name mysql -v mysql_database:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=python0 -e MYSQL_DATABASE=python -e MYSQL_USER=python -e MYSQL_PASSWORD=PYTHON0 mysql:5.7
+
+working:
+  docker run --rm -d -p 5432:5432 --name postgres -v postgres_database:/var/lib/postgresql/data/ -e POSTGRES_PASSWORD=password postgres
+  credentials:
+    host: localhost
+    port: 5432
+    database: postgres
+    username: postgres
+    password: password

@@ -1,0 +1,1 @@
+http://api.coinlayer.com/api/live?access_key=bbe857e49a4fbaba79476ebc72e36493&target=EUR
