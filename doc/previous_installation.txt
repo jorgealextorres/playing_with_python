@@ -1,2 +1,4 @@
 pip3 install jsonpath-ng
 sudo apt-get install python-psycopg2
+
+pip3 install flask flask-jsonpify flask-sqlalchemy flask-restful

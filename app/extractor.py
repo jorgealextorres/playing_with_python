@@ -52,5 +52,4 @@ def crypto_prices_web2localDatabase():
 
     finally:
         if conn is not None:
-            # conn.close()
             application.App.connectionPool.putconn(conn)
